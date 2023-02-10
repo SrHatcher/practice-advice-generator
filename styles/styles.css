@@ -88,6 +88,30 @@ main{
     cursor: pointer;
 }
 
+@media screen and (min-width: 560px) {
+    body{
+        font-size: 2.8rem;
+        font-family: var(--font);
+    
+        background-color: var(--dark-blue);
+    }
+
+    main{    
+        padding: 0rem 4rem  3rem 4rem;
+        max-width: unset;
+        width: 54rem;
+        height: 33rem;
+    }
+    .main__title{
+        font-size: 1.4rem;
+    }
+    .main__separator{
+        margin-top: 1rem;
+
+        background-image: url('../images/pattern-divider-desktop.svg');
+    }
+}
+
 @media (hover:hover){
     .main__dice:hover{
         box-shadow: 0 0 3rem 0.5rem var(--neon-green);
